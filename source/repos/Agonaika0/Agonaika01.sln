@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Api", "Agonaika01\Agonaika.Api.csproj", "{725D4623-C3A6-4BEB-BDA8-BC5F29368B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{1511B6C9-FF45-4819-B79F-D4E135F26CFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FCF60503-56EA-4ECD-90BD-314FF863B4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{550CDEE6-67A0-4602-8B75-E136779379B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{50FD96F3-EC32-4891-9943-73DBF21A9AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B8F7B707-7578-453E-917F-3633E1A96995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.ConsoleClient", "Agonaika.ConsoleClient\Agonaika.ConsoleClient.csproj", "{B52E6E90-5394-4331-8AA2-CFB590F41435}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Application", "Agonaika.Application\Agonaika.Application.csproj", "{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Domain", "Application.Domain\Agonaika.Domain.csproj", "{7E7033FC-E580-4F23-BB3D-838A804DAF4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.DomainService", "Agonaika.DomainService\Agonaika.DomainService.csproj", "{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Core", "Agonaika.Core\Agonaika.Core.csproj", "{8C699F47-5504-41F9-824D-E58B68213138}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Data", "Agonaika.Data\Agonaika.Data.csproj", "{D4D12965-1BCE-4421-B0B7-009AB05ED3A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agonaika.Domain.Tests", "Agonaika.Domain.Tests\Agonaika.Domain.Tests.csproj", "{2863B1AC-4249-4B07-8993-5280ED40CC4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{725D4623-C3A6-4BEB-BDA8-BC5F29368B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{725D4623-C3A6-4BEB-BDA8-BC5F29368B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{725D4623-C3A6-4BEB-BDA8-BC5F29368B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{725D4623-C3A6-4BEB-BDA8-BC5F29368B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52E6E90-5394-4331-8AA2-CFB590F41435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52E6E90-5394-4331-8AA2-CFB590F41435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52E6E90-5394-4331-8AA2-CFB590F41435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52E6E90-5394-4331-8AA2-CFB590F41435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7033FC-E580-4F23-BB3D-838A804DAF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7033FC-E580-4F23-BB3D-838A804DAF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7033FC-E580-4F23-BB3D-838A804DAF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7033FC-E580-4F23-BB3D-838A804DAF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C699F47-5504-41F9-824D-E58B68213138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C699F47-5504-41F9-824D-E58B68213138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C699F47-5504-41F9-824D-E58B68213138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C699F47-5504-41F9-824D-E58B68213138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D12965-1BCE-4421-B0B7-009AB05ED3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D12965-1BCE-4421-B0B7-009AB05ED3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D12965-1BCE-4421-B0B7-009AB05ED3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D12965-1BCE-4421-B0B7-009AB05ED3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2863B1AC-4249-4B07-8993-5280ED40CC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2863B1AC-4249-4B07-8993-5280ED40CC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2863B1AC-4249-4B07-8993-5280ED40CC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2863B1AC-4249-4B07-8993-5280ED40CC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{725D4623-C3A6-4BEB-BDA8-BC5F29368B16} = {FCF60503-56EA-4ECD-90BD-314FF863B4CD}
+		{B52E6E90-5394-4331-8AA2-CFB590F41435} = {1511B6C9-FF45-4819-B79F-D4E135F26CFC}
+		{5D6DAD6F-05F0-4B78-A4C8-A715F2AE43A6} = {B8F7B707-7578-453E-917F-3633E1A96995}
+		{7E7033FC-E580-4F23-BB3D-838A804DAF4B} = {B8F7B707-7578-453E-917F-3633E1A96995}
+		{E49934FA-6A78-4E89-BFCD-FE57FE7E7AC9} = {B8F7B707-7578-453E-917F-3633E1A96995}
+		{8C699F47-5504-41F9-824D-E58B68213138} = {550CDEE6-67A0-4602-8B75-E136779379B2}
+		{D4D12965-1BCE-4421-B0B7-009AB05ED3A4} = {550CDEE6-67A0-4602-8B75-E136779379B2}
+		{2863B1AC-4249-4B07-8993-5280ED40CC4E} = {50FD96F3-EC32-4891-9943-73DBF21A9AE5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD4EF116-A671-46E0-8638-56301BDFE28A}
+	EndGlobalSection
+EndGlobal
